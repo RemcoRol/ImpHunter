@@ -1,0 +1,26 @@
+<manifest>
+    <main-class>com.remco1337.bots.ImpHunter.ImpHunter</main-class>
+    <name>Imp Hunter</name>
+    <tag-line>Catches Imp's for free banking</tag-line><!--Max of 50 chars-->
+    <description>Catches Imp's for free banking</description><!--Max of 110 chars-->
+    <version>1.0.2</version>
+    <compatibility>
+        <game>OSRS</game>
+    </compatibility>
+    <categories>
+        <category>HUNTER</category>
+    </categories>
+    <!--Required to publish on the bot store-->
+    <internal-id>PowerChopper</internal-id>
+    <!--The rest are optional-->
+    <open-source>true</open-source>
+    <hidden>false</hidden> <!--If you need to hide it from the bot store for maintenance-->
+    <access>public</access>
+    <tags>
+        <tag>Tree</tag>
+        <tag>Vine</tag>
+    </tags>
+    <resources>
+        <resource>path/to/file.png</resource>
+    </resources>
+</manifest>
